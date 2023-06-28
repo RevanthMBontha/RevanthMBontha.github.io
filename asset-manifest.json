@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/static/css/main.18ad17b9.css",
-    "main.js": "/static/js/main.c227ed13.js",
+    "main.js": "/static/js/main.d473e39c.js",
     "static/media/about.jpg": "/static/media/about.37454c2432ce985365e3.jpg",
     "static/media/profile_pic.jpg": "/static/media/profile_pic.b692fe632c8b173b7fc6.jpg",
     "static/media/revanth_bontha_cv.pdf": "/static/media/revanth_bontha_cv.b75920c0613dc5aaf6b6.pdf",
     "index.html": "/index.html",
     "main.18ad17b9.css.map": "/static/css/main.18ad17b9.css.map",
-    "main.c227ed13.js.map": "/static/js/main.c227ed13.js.map"
+    "main.d473e39c.js.map": "/static/js/main.d473e39c.js.map"
   },
   "entrypoints": [
     "static/css/main.18ad17b9.css",
-    "static/js/main.c227ed13.js"
+    "static/js/main.d473e39c.js"
   ]
 }
