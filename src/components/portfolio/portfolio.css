@@ -47,3 +47,38 @@
 .work__button:hover {
   color: var(--text-color-dark);
 }
+
+/*=============== BREAKPOINTS ===============*/
+/* For large devices */
+@media screen and (max-width: 992px) {
+  .work__container {
+    grid-template-columns: repeat(2, max-content);
+    gap: 1.25rem;
+  }
+
+  .work__card {
+    pad: 1rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .work__tagline {
+    margin-bottom: 0.75rem;
+  }
+}
+
+/* For medium devices */
+@media screen and (max-width: 768px) {
+  .work__container {
+    grid-template-columns: max-content;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .work__container {
+    grid-template-columns: 1fr;
+  }
+
+  .work__card {
+    width: 100%;
+  }
+}
