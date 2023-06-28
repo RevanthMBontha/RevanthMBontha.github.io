@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.97180636.css",
+    "main.css": "/static/css/main.8778dc66.css",
     "main.js": "/static/js/main.bcb4893f.js",
     "static/media/about.jpg": "/static/media/about.37454c2432ce985365e3.jpg",
     "static/media/natureWalks.png": "/static/media/natureWalks.169fa6e693f47f4e6806.png",
@@ -11,11 +11,11 @@
     "static/media/reactComponentGallery.png": "/static/media/reactComponentGallery.ad0766c4a585b82b7bb5.png",
     "static/media/revanth_bontha_cv.pdf": "/static/media/revanth_bontha_cv.b75920c0613dc5aaf6b6.pdf",
     "index.html": "/index.html",
-    "main.97180636.css.map": "/static/css/main.97180636.css.map",
+    "main.8778dc66.css.map": "/static/css/main.8778dc66.css.map",
     "main.bcb4893f.js.map": "/static/js/main.bcb4893f.js.map"
   },
   "entrypoints": [
-    "static/css/main.97180636.css",
+    "static/css/main.8778dc66.css",
     "static/js/main.bcb4893f.js"
   ]
 }
