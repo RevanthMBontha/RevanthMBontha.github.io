@@ -16,9 +16,10 @@ const About = () => {
           <Info />
 
           <p className="about__description">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem
-            omnis deserunt harum asperiores provident earum vel velit delectus,
-            accusantium quaerat doloremque ut! Optio, ducimus id.
+            I am a Full Stack Web Designer and UI/UX enthusiast. I have a
+            passion for designing beautiful and functional user experiences. I
+            want to make things that make a difference. I enjoy reading in my
+            free time.
           </p>
 
           <a download={CV} href={CV} className="button button--flex">

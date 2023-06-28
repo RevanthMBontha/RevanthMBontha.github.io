@@ -6,7 +6,8 @@ const Data = () => {
       <h1 className="home__title">Revanth M. Bontha</h1>
       <h3 className="home__subtitle">Full Stack Developer</h3>
       <p className="home__description">
-        I am a Full Stack Developer, and I use the MERN stack!
+        I am a Full Stack Developer, and I use the MERN stack to turn ideas into
+        Reality!
       </p>
 
       <a href="#contact" className="button button--flex">
