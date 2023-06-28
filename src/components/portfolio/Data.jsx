@@ -2,6 +2,7 @@ import comfysloth from '../../assets/comfysloth.png';
 import theCocktailDatabase from '../../assets/theCocktailDatabase.png';
 import natureWalks from '../../assets/natureWalks.png';
 import personalWebsite from '../../assets/personalWebsite.png';
+import reactComponentGallery from '../../assets/reactComponentGallery.png';
 
 export const projectsData = [
   {
@@ -27,10 +28,10 @@ export const projectsData = [
   },
   {
     id: 4,
-    image: 'Work1',
+    image: reactComponentGallery,
     title: 'React Components Gallery',
     tagline: 'A set of reusable React Components built from scratch',
-    link: 'https://lol.com',
+    link: 'https://revanthmbontha-react-components-hold.netlify.app/',
   },
   {
     id: 5,
