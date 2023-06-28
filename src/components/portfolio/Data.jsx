@@ -23,7 +23,7 @@ export const projectsData = [
     image: personalWebsite,
     title: 'Personal Website',
     tagline: 'Probably the one you are looking at right now!',
-    link: 'https://comfy-sloth-revanthmbontha.netlify.app/',
+    link: 'https://www.revanthmbontha.github.io/',
   },
   {
     id: 4,
