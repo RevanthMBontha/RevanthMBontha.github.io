@@ -9,11 +9,12 @@
   border-radius: 1.5rem;
   justify-self: center;
   filter: grayscale();
+  transition: 1.5s ease-in-out;
 }
 
 .about__img:hover {
   filter: none;
-  transition: 0.3s;
+  transition: 0.3s ease-in-out;
 }
 
 .about__info {

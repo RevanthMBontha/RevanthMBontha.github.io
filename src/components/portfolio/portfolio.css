@@ -16,7 +16,7 @@
   border-radius: 1rem;
   margin-bottom: var(--mb-1);
   filter: grayscale();
-  transition: 2s;
+  transition: 2s ease-out;
 }
 .work__card:hover .work__img {
   filter: none;
