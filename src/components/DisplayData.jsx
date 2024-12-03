@@ -33,9 +33,7 @@ const DisplayData = () => {
                 src="/images/tute01.gif"
                 alt="Step 01"
               />
-              <p className="text-sm">
-                Delete the Edges or Nodes to remove data.
-              </p>
+              <p className="text-sm">Delete Edges or Nodes to remove data.</p>
             </div>
             <div className="border border-white border-solid rounded-md w-full flex flex-col items-center gap-y-1 bg-gray-950 p-1">
               <img
@@ -44,7 +42,7 @@ const DisplayData = () => {
                 alt="Step 02"
               />
               <p className="text-sm">
-                Drag Nodes from the Tray and connect to see more information.
+                Drag Nodes from Tray and connect to see more information.
               </p>
             </div>
 
