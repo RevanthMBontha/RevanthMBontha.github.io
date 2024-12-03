@@ -1,0 +1,1 @@
+import{P as r,j as t}from"./index-BoA8pTo-.js";const s=({children:e})=>t.jsx("div",{className:"bg-neutral-700 hover:bg-neutral-500 cursor-pointer rounded-md text-white flex flex-col items-center justify-center aspect-square",children:e});s.propTypes={children:r.element};export{s as S};
