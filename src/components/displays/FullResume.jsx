@@ -58,7 +58,9 @@ const FullResume = () => {
     <div
       ref={testRef}
       className={`bg-black relative text-white ${
-        connectedInputIds.includes("fullResume")
+        window.innerHeight > window.innerWidth
+          ? "h-fit p-4 lg:p-8 lg:px-18"
+          : connectedInputIds.includes("fullResume")
           ? "h-[3100px] p-4 lg:p-8 lg:px-18"
           : "h-0 p-0"
       } rounded-none z-10 w-full flex flex-col overflow-hidden gap-y-12 justify-start items-start transition-all font-rubik flex-shrink-0 duration-1000 ease-in-out`}
@@ -384,7 +386,7 @@ const FullResume = () => {
           {/* To send a message for a contract */}
           <form
             onSubmit={handleSubmit}
-            className="flex relative w-3/5  p-2 h-96  flex-col justify-evenly gap-y-4"
+            className="flex relative w-3/5 p-2 flex-col justify-evenly gap-y-4"
           >
             <div className="relative w-full">
               <label
