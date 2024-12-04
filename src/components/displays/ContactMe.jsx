@@ -48,7 +48,7 @@ const ContactMe = () => {
       className={`bg-black text-white ${
         !connectedInputIds.includes("fullResume") &&
         connectedInputIds.includes("contact")
-          ? "h-[600px] p-4 lg:p-8 lg:px-18"
+          ? "h-[38rem] p-4 lg:p-8 lg:px-18"
           : "h-0 p-0"
       } flex flex-col overflow-hidden gap-y-8 z-10 items-center transition-all duration-1000 flex-shrink-0 ease-in-out`}
     >

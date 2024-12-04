@@ -11,7 +11,7 @@ const AboutMe = () => {
       className={`bg-black text-white ${
         !connectedInputIds.includes("fullResume") &&
         connectedInputIds.includes("about")
-          ? "h-[720px] p-4 lg:p-8 lg:px-18"
+          ? "h-[45rem] p-4 lg:p-8 lg:px-18"
           : "h-0 p-0"
       } flex flex-col z-10 gap-y-8 overflow-hidden justify-evenly items-center transition-all flex-shrink-0 duration-1000 ease-in-out`}
     >

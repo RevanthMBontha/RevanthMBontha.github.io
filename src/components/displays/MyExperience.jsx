@@ -8,7 +8,7 @@ const MyExperience = () => {
       className={`bg-black text-white ${
         !connectedInputIds.includes("fullResume") &&
         connectedInputIds.includes("experience")
-          ? "h-[670px] p-4 lg:p-8 lg:px-18"
+          ? "h-[42rem] p-4 lg:p-8 lg:px-18"
           : "h-0 p-0"
       } flex flex-col overflow-hidden gap-y-8 z-10 items-center transition-all duration-1000 flex-shrink-0 ease-in-out`}
     >

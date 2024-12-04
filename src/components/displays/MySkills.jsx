@@ -10,7 +10,7 @@ const MySkills = () => {
       className={`bg-black text-white ${
         !connectedInputIds.includes("fullResume") &&
         connectedInputIds.includes("skills")
-          ? "h-[625px] p-4 lg:p-8 lg:px-18"
+          ? "h-[39rem] p-4 lg:p-8 lg:px-18"
           : "h-0 p-0"
       } flex flex-col overflow-hidden gap-y-8 z-10 items-center transition-all duration-1000 flex-shrink-0 ease-in-out`}
     >

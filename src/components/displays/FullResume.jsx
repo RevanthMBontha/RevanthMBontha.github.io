@@ -61,7 +61,7 @@ const FullResume = () => {
         window.innerHeight > window.innerWidth
           ? "h-fit p-4 lg:p-8 lg:px-18"
           : connectedInputIds.includes("fullResume")
-          ? "h-[3100px] p-4 lg:p-8 lg:px-18"
+          ? "h-[194rem] p-4 lg:p-8 lg:px-18"
           : "h-0 p-0"
       } rounded-none z-10 w-full flex flex-col overflow-hidden gap-y-12 justify-start items-start transition-all font-rubik flex-shrink-0 duration-1000 ease-in-out`}
     >
