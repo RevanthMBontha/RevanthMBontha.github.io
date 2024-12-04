@@ -54,7 +54,7 @@ const ContactMe = () => {
     >
       <h1 className="text-start w-full text-4xl">Contact Me</h1>
       <div className="flex w-full h-fit">
-        {/* For quick mail or message */}
+        {/* For quick mail or whatsapp message */}
         <div className="flex w-2/5 h-96  p-2 flex-col items-center justify-evenly">
           <div className="h-fit w-full rounded-md bg-black flex flex-col items-center justify-center gap-y-2 p-4 border border-white border-solid">
             <MdEmail
