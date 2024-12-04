@@ -143,7 +143,7 @@ function App() {
   return (
     <>
       <div className="relative scrollbar-thin scrollbar-thumb-primary-500 scrollbar-track-gray-500 w-screen h-screen overflow-y-auto">
-        {window.innerWidth >= 200 ? (
+        {window.innerWidth > window.innerHeight ? (
           <div className="h-screen w-screen flex overflow-y-auto">
             <div className="flex flex-col w-[55%] overflow-y-auto">
               <div className="w-full h-full" ref={reactFlowWrapper}>
