@@ -80,7 +80,7 @@ const AboutMe = () => {
 
         <div
           onClick={() =>
-            window.open("http://www.linkedin.com/in/revanth-m-bontha", "_blank")
+            window.open("http://www.linkedin.com/in/revanth-bontha", "_blank")
           }
           className="bg-neutral-700 hover:bg-neutral-500 p-2 md:px-4 rounded-full flex items-center gap-x-2 cursor-pointer"
         >

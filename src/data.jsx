@@ -49,6 +49,40 @@ export const projectCardsData = [
     ],
   },
   {
+    name: "Proctor Pro",
+    description:
+      "ProctorPro is a dynamic question paper designer application that allows users to create, manage, and share customizable tests. The platform supports multiple question types, including multiple-choice, fill-in-the-blank, categorization, and comprehension questions with nested MCQs. Once a test is created, a unique shareable link is generated, enabling others to take the test and receive instant scoring based on correct answers. ProctorPro streamlines the assessment process, making it ideal for educators, recruiters, and trainers seeking an efficient and user-friendly test creation experience.",
+    images: [
+      { key: "proctorpro-01", img: "/images/projects/proctor-pro/01.gif" },
+      { key: "proctorpro-02", img: "/images/projects/proctor-pro/02.png" },
+      { key: "proctorpro-03", img: "/images/projects/proctor-pro/03.png" },
+      { key: "proctorpro-04", img: "/images/projects/proctor-pro/04.png" },
+      { key: "proctorpro-05", img: "/images/projects/proctor-pro/05.png" },
+    ],
+    techstack: [
+      "React",
+      "TailwindCSS",
+      "NodeJS",
+      "ExpressJS",
+      "MongoDB",
+      "React Query",
+      "Git",
+      "Github",
+    ],
+    link: "https://proctorpro-revanth.netlify.app/",
+    icons: [
+      <div key="react01" className="p-2 bg-black rounded-md">
+        <FaReact size={20} />
+      </div>,
+      <div key="tailwind01" className="p-2 bg-black rounded-md">
+        <SiTailwindcss size={20} />
+      </div>,
+      <div key="github01" className="p-2 bg-black rounded-md">
+        <TbBrandGithubFilled size={20} />
+      </div>,
+    ],
+  },
+  {
     name: "Twitter Clone",
     description:
       "Developed a Twitter clone with React, Node, Express, and MongoDB, supporting tweeting, liking, replying, retweeting, and viewing user profiles. Implemented JWT authentication, bcrypt encryption, and secure image upload middleware. Improved UX with real-time user handle validation during sign-up and optimized database performance using Mongoose.",

@@ -141,10 +141,7 @@ const FullResume = () => {
           {/* LinkedIn */}
           <div
             onClick={() =>
-              window.open(
-                "http://www.linkedin.com/in/revanth-m-bontha",
-                "_blank"
-              )
+              window.open("http://www.linkedin.com/in/revanth-bontha", "_blank")
             }
             className="bg-neutral-700 hover:bg-neutral-500 p-2 md:px-4 rounded-full flex items-center gap-x-2 cursor-pointer"
           >
@@ -248,15 +245,13 @@ const FullResume = () => {
             <div
               className={`w-full ${
                 isExperience ? "visible" : "invisible"
-              } bg-black h-full flex flex-col gap-y-4`}
+              } bg-black h-full flex flex-col gap-y-4 text-end`}
             >
               <div className="flex flex-col">
-                <span className="text-xl text-end">
-                  Frontend Developer Intern
-                </span>
-                <span className="text-sm text-end">56 Secure</span>
+                <span className="text-xl">Fullstack Freelancer</span>
+                <span className="text-sm">Histare Group</span>
               </div>
-              <div className="text-base text-end">Jul,2023 - Sept,2023</div>
+              <div className="text-base">Aug,2023 - Present</div>
             </div>
             {/* Dot */}
             <div className="w-7 flex-shrink-0 bg-white h-7 rounded-full"></div>
@@ -297,10 +292,10 @@ const FullResume = () => {
               } bg-black h-full flex flex-col gap-y-4`}
             >
               <div className="flex flex-col">
-                <span className="text-xl">Freelancing</span>
-                <span className="text-sm">Multiple Clients</span>
+                <span className="text-xl">Frontend Developer</span>
+                <span className="text-sm">56 Secure</span>
               </div>
-              <div className="text-base">Oct,2022 - Jul,2023</div>
+              <div className="text-base">Sept,2022 - Oct,2023</div>
             </div>
           </div>
 
